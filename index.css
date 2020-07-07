@@ -1,0 +1,405 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    width: 100%;
+    height: 100%;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.website-page {
+    background-color: rgb(6, 7, 59);
+    display: block;
+    color: white;
+}
+
+header {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header div {
+    margin: auto;
+    padding: 0;
+    text-align: center;
+}
+
+header div h1 {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+header div h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+header div #mobileimage {
+    display: none;
+}
+
+.navbar {
+    background-color: rgba(rgba(0, 0, 0, 0), green, blue, alpha);
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.navbar #navbar--menu {
+    font-family: 'Noto Sans TC', sans-serif;
+    padding: 12px 20px;
+    margin: 0 10px;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 1px transparent white;
+    transition: border-bottom ease 250ms;
+}
+
+.navbar #navbar--menu:hover,
+.navbar #navbar--menu:focus {
+    border-bottom: 5px solid white;
+}
+
+.navbar #navbar--moremenu {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    padding: 12px 20px;
+    margin: 0 10px;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    display: none;
+}
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: rgba(17, 17, 17, 0.842); /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+.sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+.about-section {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.about-section #placeholder {
+    margin: 5% 0;
+}
+
+.about-section #mobileplaceholder {
+    display: none;
+}
+
+#text-box {
+    width: 25%;
+    margin: 10% 15%;
+}
+
+#text-box h3 {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+#text-box p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 2;
+}
+
+.speciality-section {
+    height: 100%;
+    margin: 10% 15%;
+}
+
+.speciality-section h3 {
+    text-align: center;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+#box-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10% 0;
+}
+
+#speciality-box {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: rgb(11, 12, 100);
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 10px;
+    transition: box-shadow ease 250ms;
+}
+
+#speciality-box:hover {
+    box-shadow: 10px 10px 8px black ;
+}
+
+#speciality-box h4 {
+    font-family: 'Noto Sans TC', sans-serif;
+    text-align: center;
+}
+
+#speciality-box span {
+    display: inline;
+    text-align: center;
+}
+
+#speciality-box span i {
+    padding: 5px;
+    font-size: 48px;
+}
+
+.la-html5 {
+    color: rgb(227, 76, 38);
+}
+
+.la-css3-alt {
+    color: rgb(38, 77, 228);
+}
+
+.la-js-square {
+    color: rgb(255, 240, 36);
+}
+
+.la-bootstrap {
+    color: #553C7B;
+}
+
+.la-react {
+    color: #61DBFB;
+}
+
+#speciality-box p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+.projects-section {
+    height: 100%;
+}
+
+.projects-section h3 {
+    text-align: center;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+#projects-box {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(11, 12, 100);
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 10px;
+    transition: box-shadow ease 250ms;
+}
+
+#projects-box:hover {
+    box-shadow: 10px 10px 8px black ;
+}
+
+#projects-box h4 {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+#projects-box p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+.contacts-section {
+    height: 100%;
+    padding: 2% 0 10% 0;
+}
+
+.contacts-section h3 {
+    text-align: center;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.contacts-section span {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contacts-section span a {
+    color: white;
+}
+
+.contacts-section span i {
+    padding: 5px;
+    font-size: 48px;
+}
+
+.la-facebook-f,
+.la-instagram,
+.la-twitter,
+.la-github,
+.la-envelope {
+    transition: color ease 250ms;
+}
+
+.la-facebook-f:hover,
+.la-facebook-f:focus {
+    color: #3b5998;
+}
+
+.la-instagram:hover,
+.la-instagram:focus {
+    color: #c13584;
+}
+
+.la-twitter:hover,
+.la-twitter:focus {
+    color: #00acee;
+}
+
+.la-github:focus,
+.la-github:hover {
+    color: black;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.footer h2 {
+    font-family: 'Noto Sans TC', sans-serif;
+    vertical-align: middle;
+}
+
+.footer i {
+    font-size: 27px;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        font-size: small;
+    }
+    
+    .main-page {
+        font-size: small;
+    }
+    
+    .about-section {
+        flex-direction: column-reverse;
+    }
+
+    .about-section #text-box {
+        width: 70%;
+        margin: auto;
+    }
+
+    .about-section #text-box h3 {
+        text-align: center;
+    }
+
+    .about-section #placeholder {
+        display: none;
+    }
+
+    .about-section #mobileplaceholder {
+        display: initial;
+        margin: 0 auto;
+    }
+    
+    
+    
+    .navbar #navbar--menu {
+        display: none;
+    }
+    
+    .navbar #navbar--moremenu {
+        display: initial;
+    }   
+
+    .speciality-section {
+        margin: 10% auto;
+        width: 100%;
+    }
+
+    #box-wrapper {
+        flex-direction: column;
+    }
+
+    #speciality-box,
+    #projects-box {
+        width: 80%;
+        margin: 10% auto
+    }
+
+    .contacts-section span i{
+        font-size: 32px;
+    }
+
+    .footer h2{
+        font-size: 1rem;
+    }
+
+    .footer i {
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 570px) {
+    header div #image {
+        display: none;
+    }
+    
+    header div #mobileimage {
+        display: block;
+        margin: auto;
+    }
+}
+

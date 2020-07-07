@@ -1,1 +1,98 @@
-
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Amar Fauzan</title>
+    <meta name="author" content="Amar Fauzan">
+    <meta name="description" content="My Portfolio in the future :)">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+</head>
+<body class="website-page">
+    <div id="Sidenav" class="sidenav" style="width: 0px;">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="las la-times"></i></a>
+        <a href="#about" onclick="closeNav()">About</a>
+        <a href="#speciality" onclick="closeNav()">Speciality</a>
+        <a href="#projects" onclick="closeNav()">Projects</a>
+        <a href="#contacts" onclick="closeNav()">Contacts</a>
+    </div>
+    <header> 
+        <nav class="navbar">
+            <ul>
+            <li><a href="#about" id="navbar--menu">About</a></li>    
+            <li><a href="#speciality" id="navbar--menu">Speciality</a></li>
+            <li><a href="#projects" id="navbar--menu">Projects</a></li>
+            <li><a href="#contacts" id="navbar--menu">Contacts</a></li>
+            <li><a href="javascript:void(0)" id="navbar--moremenu" onclick="openNav()">☰</a></li>
+            </ul>
+        </nav>
+        <div>
+            <img src="media/illustration.svg" alt="" id="image">
+            <img src="media/illustrationmobile.svg" alt="" id="mobileimage">
+            <h1>Greetings! 👋</h1>
+            <h2>M. Amar Fauzan, Front End Developer 💻</h2>
+        </div>
+    </header>
+    <main class="main-page">
+        <section class="about-section" id="about">
+            <div id="text-box">
+            <h3>Let me introduce myself 👦</h3>
+            <p>
+                My name is M. Amar Fauzan, 17 years old. I am from Indonesia. Passionate to everything i do.
+                Interacting with technology and the internet at very young age. Learning to code at Elementary School.
+                HTML, CSS, and JavaScript is my daily meal. Ready to help anyone making a great website.
+            </p>
+            </div>
+            <img id="placeholder" src="media/Placeholder.jpg" alt="" width="400" height="500">
+            <img id="mobileplaceholder" src="media/Placeholdermobile.jpg" alt="" width="200" height="250">
+        </section>
+        <section class="speciality-section" id="speciality">
+            <h3>Several Ability that I have:</h3>
+            <span id="box-wrapper">
+                <div id="speciality-box">
+                    <h4>HTML/CSS/JavaScript</h4>
+                    <span><i class="lab la-html5"></i><i class="lab la-css3-alt"></i><i class="lab la-js-square"></i></span>
+                    <p>Ability to code clean and manageable HTML, CSS, and JavaScript code</p>
+                </div>
+                <div id="speciality-box">
+                    <h4>Bootstrap and React</h4>
+                    <span><i class="lab la-bootstrap"></i><i class="lab la-react"></i></span>
+                    <p>Ability to work with popular CSS and JavaScript framework</p>
+                </div>
+            </span>
+        </section>
+        <section class="projects-section" id="projects">
+            <h3>I have some projects I can show to you:</h3>
+            <span id="box-wrapper">
+                <div id="projects-box">
+                    <h4>Calculator</h4>
+                    <img src="media/calculator.svg" alt="">
+                    <p> Using HTML, CSS, and JavaScript, I can make a functional Calculator complete
+                        with calculate history and theme customizer
+                    </p>
+                </div>
+                <div id="projects-box">
+                    <h4>Quote Generator</h4>
+                    <img src="media/quotegenerator.svg" alt="">
+                    <p>This program loads a new Quote from Wikiquote everytime the website freshes</p>
+                </div>
+            </span>
+        </section>
+        <section class="contacts-section" id="contacts">
+            <h3>Let's get social!</h3>
+            <span>
+                <a href="https://web.facebook.com/amar.fauzan.132" target="_blank"><i class="lab la-facebook-f"></i></a>
+                <a href="https://www.instagram.com/m.amarfauzan/" target="_blank"><i class="lab la-instagram"></i></a>
+                <a href="https://twitter.com/itsSixSiege" target="_blank"><i class="lab la-twitter"></i></a>
+                <a href="https://github.com/SixSiege" target="_blank"><i class="lab la-github"></i></a>
+                <a href="mailto:contact@amarfauzan.ml" target="_blank"><i class="las la-envelope"></i></a>
+            </span>
+        </section>
+        <footer class="footer">
+            <h2><i class="las la-code"></i> with 💖 in Indonesia</h2>
+        </footer>
+    </main>
+</body>
+</html>
