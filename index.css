@@ -1,3 +1,11 @@
+/* 
+    Early Declaration
+*/
+
+:focus {
+    outline: none;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -17,6 +25,10 @@ html, body {
     display: block;
     color: white;
 }
+
+/*
+    Header
+*/
 
 header {
     height: 100%;
@@ -42,6 +54,10 @@ header div #mobileimage {
     display: none;
 }
 
+/*
+    Navigation Bar and Sidebar
+*/
+
 .navbar {
     background-color: rgba(rgba(0, 0, 0, 0), green, blue, alpha);
     padding: 0;
@@ -50,9 +66,12 @@ header div #mobileimage {
 
 .navbar ul {
     list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
+    display: flex; 
+    display: -webkit-flex;
+    flex-direction: row;    
+    -webkit-flex-direction: row;
+    justify-content: right; 
+    -webkit-justify-content: right;
 }
 
 .navbar #navbar--menu {
@@ -117,7 +136,11 @@ header div #mobileimage {
 
 .sidenav a:hover {
     color: #f1f1f1;
-  }
+}
+
+/*
+    About Section
+*/
 
 .about-section {
     height: 100%;
@@ -146,6 +169,10 @@ header div #mobileimage {
     font-family: 'Roboto', sans-serif;
     line-height: 2;
 }
+
+/*
+    Speciality Section
+*/
 
 .speciality-section {
     height: 100%;
@@ -194,30 +221,14 @@ header div #mobileimage {
     font-size: 48px;
 }
 
-.la-html5 {
-    color: rgb(227, 76, 38);
-}
-
-.la-css3-alt {
-    color: rgb(38, 77, 228);
-}
-
-.la-js-square {
-    color: rgb(255, 240, 36);
-}
-
-.la-bootstrap {
-    color: #553C7B;
-}
-
-.la-react {
-    color: #61DBFB;
-}
-
 #speciality-box p {
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
 }
+
+/*
+    Projects Section
+*/
 
 .projects-section {
     height: 100%;
@@ -252,6 +263,10 @@ header div #mobileimage {
     line-height: 1.5;
 }
 
+/*
+    Contacts Section
+*/
+
 .contacts-section {
     height: 100%;
     padding: 2% 0 10% 0;
@@ -276,6 +291,53 @@ header div #mobileimage {
     padding: 5px;
     font-size: 48px;
 }
+
+/*
+    Footer
+*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.footer h2 {
+    font-family: 'Noto Sans TC', sans-serif;
+    vertical-align: middle;
+}
+
+.footer i {
+    font-size: 27px;
+}
+
+/*
+    Icons
+*/
+
+
+.la-html5 {
+    color: rgb(227, 76, 38);
+}
+
+.la-css3-alt {
+    color: rgb(38, 77, 228);
+}
+
+.la-js-square {
+    color: rgb(255, 240, 36);
+}
+
+.la-bootstrap {
+    color: #553C7B;
+}
+
+.la-react {
+    color: #61DBFB;
+}
+
 
 .la-facebook-f,
 .la-instagram,
@@ -305,22 +367,6 @@ header div #mobileimage {
     color: black;
 }
 
-.footer {
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    padding: 0;
-    margin: 0;
-}
-
-.footer h2 {
-    font-family: 'Noto Sans TC', sans-serif;
-    vertical-align: middle;
-}
-
-.footer i {
-    font-size: 27px;
-}
 
 @media screen and (max-width: 768px) {
     header {
