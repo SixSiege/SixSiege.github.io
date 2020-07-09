@@ -69,7 +69,7 @@ header div #mobileimage {
     display: flex;
     flex-direction: row;
     justify-content: right;
-    -webkit-box-align: end; 
+    -webkit-box-align: end;
 }
 
 .navbar #navbar--menu {
