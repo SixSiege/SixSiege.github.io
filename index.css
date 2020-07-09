@@ -69,6 +69,7 @@ header div #mobileimage {
     display: flex;
     flex-direction: row;
     justify-content: right;
+    
 }
 
 .navbar #navbar--menu {
