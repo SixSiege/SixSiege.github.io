@@ -68,7 +68,7 @@ header div #mobileimage {
     list-style: none;
     display: inline-grid;
     display: -ms-inline-grid;
-    display: -moz-inline-grid;
+    display: -moz-inline-grid; 
     justify-content: end;
 }
 
