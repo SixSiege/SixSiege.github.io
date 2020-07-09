@@ -66,10 +66,8 @@ header div #mobileimage {
 
 .navbar ul {
     list-style: none;
-    display: inline-grid;
-    display: -ms-inline-grid;
-    display: -moz-inline-grid;
-    justify-content: end;
+    display: block;
+    float: right;
 }
 
 .navbar #navbar--menu {
