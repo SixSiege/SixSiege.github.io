@@ -66,12 +66,10 @@ header div #mobileimage {
 
 .navbar ul {
     list-style: none;
-    display: flex; 
-    display: -webkit-flex;
-    flex-direction: row;    
-    -webkit-flex-direction: row;
-    justify-content: right; 
-    -webkit-justify-content: right;
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    justify-content: end;
 }
 
 .navbar #navbar--menu {
