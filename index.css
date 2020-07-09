@@ -66,12 +66,9 @@ header div #mobileimage {
 
 .navbar ul {
     list-style: none;
-
-}
-
-.navbar li {
-    display: block;
-    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
 }
 
 .navbar #navbar--menu {
